@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API示例</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<h1>API示例</h1>
+	<div class="col-sm-3 box-item">
+		<div class="wrap-img">
+			<img src="images/screen.png" />
+		</div>
+		<button id="btn" type="submit" class="btn btn-2">温度</button>
+	</div>
+	<div id="response"></div>
+
+	<script>
+	$(document).ready(function() {
+		$('#btn').click(function() {
+			$.ajax({
+				type: 'GET',
+				url: 'https://iot.cn-shanghai.aliyuncs.com/?Format=JSON&Version=2018-01-20&AccessKeyId=LTAI5tJUfREbaCbG3fenS6zk&SignatureVersion=1.0&SignatureMethod=HMAC-SHA1&SignatureNonce=7d721d7b-e339-11ed-a53f-005056c00008&Timestamp=2023-04-25T07%3A19%3A17Z&Action=QueryDeviceOriginalPropertyStatus&RegionId=cn-hangzhou&PageSize=5&IotId=6qDzRGS5Ra4PjUj2kbRzicci00&Asc=1&IotInstanceId=iot-06z00ep2pjifrby&Signature=NX%2BISn2S8qJOqhu7Nw8Hx9YidhU%3D',
+				success: function(response) {
+					$('#response').text(response);
+				}
+			});
+		});
+	});
+	</script>
+</body>
+</html>
