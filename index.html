@@ -1,75 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Free Bootstrap Themes by 365Bootstrap dot com - Free Responsive Html5 Templates">
 
-    <title>包子们的小家</title>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Free Bootstrap Themes by 365Bootstrap dot com - Free Responsive Html5 Templates">
+
+	<title>包子们的小家</title>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animated-logo.min.css"><!-- Logo -->
 	<link rel="stylesheet" href="css/our-team.css"> <!-- Resource style -->
-	
+
 	<!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 	<!-- Js -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-	
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
+<style>
+	.zs {}
+
+	.zs .ul {
+		width: 100%;
+		/* height: 50px; */
+		border: pink 1px solid;
+		margin-bottom: 20px;
+	}
+
+	.aa {
+		/* width: 300px; */
+		display: flex;
+		height: 109px;
+		/* border: 1px solid #000; */
+		/* background-color: aliceblue; */
+		justify-content: center;
+		align-items: center;
+		flex-direction: column
+	}
+	.bb{
+		width: 25%;
+		/* border: 1px solid red; */
+		text-align: left;
+	}
+</style>
+
 <body>
 	<!-- /////////////////////////////////////////Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- <a class="navbar-brand page-scroll" href="#page-top">嘿！</a> -->
-            </div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- <a class="navbar-brand page-scroll" href="#page-top">嘿！</a> -->
+			</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
 					<li>
-                        <a class="page-scroll" href="#page-top">主页</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">室内详情</a>
-                    </li>
+						<a class="page-scroll" href="#page-top">主页</a>
+					</li>
 					<li>
-                        <a class="page-scroll" href="#new">硬件详情</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">联系方式</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+						<a class="page-scroll" href="#services">室内详情</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#new">硬件详情</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#contact">联系方式</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
 	<!-- Navigation -->
 
 	<!-- /////////////////////////////////////////Header -->
@@ -79,10 +108,10 @@
 				<div class="col-lg-12">
 					<div class="o-container">
 						<div class="c-slack">
-						  <span class="c-slack__dot c-slack__dot--a"></span>
-						  <span class="c-slack__dot c-slack__dot--b"></span>
-						  <span class="c-slack__dot c-slack__dot--c"></span>
-						  <span class="c-slack__dot c-slack__dot--d"></span>
+							<span class="c-slack__dot c-slack__dot--a"></span>
+							<span class="c-slack__dot c-slack__dot--b"></span>
+							<span class="c-slack__dot c-slack__dot--c"></span>
+							<span class="c-slack__dot c-slack__dot--d"></span>
 						</div>
 					</div>
 					<div class="intro-text">
@@ -93,12 +122,12 @@
 				</div>
 			</div>
 		</div>
-    </header>
+	</header>
 	<!-- Header -->
-	
+
 	<!-- /////////////////////////////////////////Content -->
 	<div id="page-content" class="index-page">
-		
+
 		<!-- ////////////Content Box 01 -->
 		<section id="services" class="box-content box-1">
 			<div class="container">
@@ -107,163 +136,243 @@
 						<h2>当前室内情况</h2>
 						<hr>
 						<div class="intro">点击查看最新室内信息</div>
+						<p id="data"></p>
 					</div>
 				</div>
-				<div class="row">
-					
-					
-					<div class="col-sm-3 box-item">
-						<div class="wrap-img">
-							<img src="images/screen.png" />
+
+				<div class="zs">
+					<div class="ul">
+						<div class="aa">
+							<div class="bb">
+								<span>温度:</span>
+								<span id="z1"></span>
+							</div>
+							<div class="bb">
+								<span>湿度:</span>
+								<span id="z2"></span>
+							</div>
+							<div class="bb">
+								<span>震动传感器:</span>
+								<span id="z3"></span>
+							</div>
+							<div class="bb">
+								<span>烟雾传感器:</span>
+								<span id="z4"></span>
+							</div>
+							<div class="bb">
+								<span>人体红外传感器:</span>
+								<span id="z5"></span>
+							</div>
 						</div>
-						<button id="btn" type="submit" class="btn btn-2">温度</button>
 					</div>
-					<div id="response"></div>
-				
-					<script>
-					$(document).ready(function() {
-						$('#btn').click(function() {
-							$.ajax({
-								type: 'GET',
-								url: 'https://iot.cn-shanghai.aliyuncs.com/?Format=JSON&Version=2018-01-20&AccessKeyId=LTAI5tJUfREbaCbG3fenS6zk&SignatureVersion=1.0&SignatureMethod=HMAC-SHA1&SignatureNonce=8e8c1cd6-e32a-11ed-a71f-005056c00008&Timestamp=2023-04-25T05%3A32%3A23Z&Action=QueryDeviceOriginalPropertyStatus&RegionId=cn-hangzhou&PageSize=5&IotId=6qDzRGS5Ra4PjUj2kbRzicci00&Asc=1&IotInstanceId=iot-06z00ep2pjifrby&Signature=tFULUNXv5BppJVVm%2FKAjV4lhCUU%3D',
-								success: function(response) {
-									$('#response').text(response);
-								}, 
-								error(err) {
-									console.log(err);
+				</div>
+
+				<div class="col-sm-3 box-item d-flex flex-column align-items-center">
+					<div class="vertical-center">
+					  <!-- <button>Centered Button</button> -->
+					</div>
+				  </div>
+
+				<div class="col-sm-3 box-item d-flex flex-column align-items-center">
+					<div class="wrap-img">
+					  <!-- Image content goes here -->
+					</div>
+					<button id="btn" type="submit" class="btn btn-2">获取数据</button>
+					<p id="data"></p>
+				  </div>
+				  
+
+				<script>
+					document.getElementById("btn").addEventListener("click", function () {
+						console.log("sdasdas")
+						fetch('http://26.26.26.1:5000/api-url')
+							.then(response => response.json())
+							.then(data => {
+								console.log("正在输出", data)
+								var xmlHttp = new XMLHttpRequest();
+								xmlHttp.open("GET", data.url, false);
+								xmlHttp.send(null);
+								let data1 = xmlHttp.responseText;
+								data1= JSON.parse(data1)
+								console.log(data1)
+								console.log(data1.Data)
+	
+								for (let i in data1.Data.List.PropertyStatusDataInfo){
+									data1.Data.List.PropertyStatusDataInfo[i].Value= JSON.parse(data1.Data.List.PropertyStatusDataInfo[i].Value)
 								}
+								if ( data1.Data.List.PropertyStatusDataInfo[1].Value.data=="1"){
+									data1.Data.List.PropertyStatusDataInfo[1].Value.data=data1.Data.List.PropertyStatusDataInfo[1].Value.data+"（有人）"
+								}else{
+									data1.Data.List.PropertyStatusDataInfo[1].Value.data=data1.Data.List.PropertyStatusDataInfo[1].Value.data+"（无人）"
+								}
+								if( data1.Data.List.PropertyStatusDataInfo[2].Value.data=="1"){
+									data1.Data.List.PropertyStatusDataInfo[2].Value.data= data1.Data.List.PropertyStatusDataInfo[2].Value.data+"(烟雾低于设定值)"
+								}else{
+									data1.Data.List.PropertyStatusDataInfo[2].Value.data= data1.Data.List.PropertyStatusDataInfo[2].Value.data+"（烟雾高于设定值）"
+								}
+								if( data1.Data.List.PropertyStatusDataInfo[3].Value.data=="0"){
+									data1.Data.List.PropertyStatusDataInfo[3].Value.data= data1.Data.List.PropertyStatusDataInfo[3].Value.data+"（无震动）"
+								}else{
+									data1.Data.List.PropertyStatusDataInfo[3].Value.data= data1.Data.List.PropertyStatusDataInfo[3].Value.data+"（有震动）"
+								}
+								console.log(data1.Data.List.PropertyStatusDataInfo[0].Value)
+								document.getElementById("z1").innerHTML = data1.Data.List.PropertyStatusDataInfo[0].Value.data+"度"; 
+								document.getElementById("z2").innerHTML = data1.Data.List.PropertyStatusDataInfo[4].Value.data+"%RH"; 
+								document.getElementById("z3").innerHTML = data1.Data.List.PropertyStatusDataInfo[3].Value.data; 
+								document.getElementById("z4").innerHTML = data1.Data.List.PropertyStatusDataInfo[2].Value.data; 
+								document.getElementById("z5").innerHTML = data1.Data.List.PropertyStatusDataInfo[1].Value.data; // 将返回的数据显示在按钮下
+							})
+							.catch(error => {
+								console.error(error);
 							});
-						});
 					});
-					</script>
-					
-				</div>		
+				</script>
+
+
+
+
+
 			</div>
-		</section>
-		
-		<!-- ////////////Content Box 02 -->
-		<section id="new" class="box-content box-2 box-style">
-			<div class="container">
-				<div class="row">
-					<blockquote>基于树莓派的智能家居管理系统
-						</blockquote>
-				</div>		
+	</div>
+	</section>
+
+	<!-- ////////////Content Box 02 -->
+	<section id="new" class="box-content box-2 box-style">
+		<div class="container">
+			<div class="row">
+				<blockquote>基于树莓派的智能家居管理系统
+				</blockquote>
 			</div>
-		</section>
-		
-		<!-- ////////////Content Box 03 -->
-		
-		
-		<!-- ////////////Content Box 04 -->
-		<section id="team" class="box-content box-4 box-style">
-			<div class="clearfix">
-				<div class="cd-testimonials-wrapper cd-container">
-					<ul class="cd-testimonials">
-						<li>
-							<p>与常见的嵌入式微控制器相比，本系统采用树莓派能运行有相应的操作系统，可以完成更复杂的任务管理与调度，能够支持更上层应用的开发，为了开发者提供了更广阔的应用空间。
-							</p>
+		</div>
+	</section>
+
+	<!-- ////////////Content Box 03 -->
+
+
+	<!-- ////////////Content Box 04 -->
+	<section id="team" class="box-content box-4 box-style">
+		<div class="clearfix">
+			<div class="cd-testimonials-wrapper cd-container">
+				<ul class="cd-testimonials">
+					<li>
+						<p>与常见的嵌入式微控制器相比，本系统采用树莓派能运行有相应的操作系统，可以完成更复杂的任务管理与调度，能够支持更上层应用的开发，为了开发者提供了更广阔的应用空间。
+						</p>
+						<div class="cd-author">
+							<!-- <img src="images/avatar-1.jpg" alt="Author image"> -->
+							<ul class="cd-author-info">
+								<!-- <li>王雷全</li> -->
+
+							</ul>
+						</div>
+					</li>
+
+
+				</ul> <!-- cd-testimonials -->
+			</div> <!-- cd-testimonials-wrapper -->
+
+			<div class="cd-see-all"><a href="#0" class="btn btn-1">查看详情</a></div>
+
+			<div class="cd-testimonials-all">
+				<div class="cd-testimonials-all-wrapper">
+					<ul>
+						<li class="cd-testimonials-item">
+							<!-- <p>王雷全,博士,中国石油大学（华东）,青岛软件学院、计算机科学与技术学院硕士生导师。2012年6月毕业于北京邮电大学信息与通信工程专业,获得工学博士学位,专业领域为机器学习与计算机视觉。目前科研兴趣包括：跨媒体检索、图像/视频描述、视频理解、遥感分析、深度学习理论与应用等。目前以第一作者或通信作者发表SCI论文20余篇,主持和参加多项国家自然科学基金、科技部、教育部以及企业合作项目,指导本科生与研究生参加国际、国内竞赛。</p> -->
+
 							<div class="cd-author">
 								<!-- <img src="images/avatar-1.jpg" alt="Author image"> -->
 								<ul class="cd-author-info">
-									<!-- <li>王雷全</li> -->
-									
+									<li>Raspberry Pi 中文名为“树莓派”,简写为RPi，(或者RasPi / RPI) 是为学生计算机编程教育而设计，只有信用卡大小的微型电脑，其系统基于Linux。 随着Windows 10 IoT的发布，我们也将可以用上运行Windows的树莓派。自问世以来，受众多计算机发烧友和创客的追捧，曾经一“派”难求。别看其外表“娇小”，内“心”却很强大，视频、音频等功能通通皆有，可谓是“麻雀虽小，五脏俱全”。
+
+										树莓派由注册于英国的慈善组织“Raspberry Pi 基金会”开发，Eben·Upton/埃·厄普顿为项目带头人。2012年3月，英国剑桥大学埃本·阿普顿（Eben Epton）正式发售世界上最小的台式机，又称卡片式电脑，外形只有信用卡大小，却具有电脑的所有基本功能，这就是Raspberry Pi电脑板，中文译名"树莓派"。这一基金会以提升学校计算机科学及相关学科的教育，让计算机变得有趣为宗旨。基金会期望这一款电脑无论是在发展中国家还是在发达国家，会有更多的其它应用不断被开发出来，并应用到更多领域。在2006年树莓派早期概念是基于Atmel的 ATmega644单片机，首批上市的10000“台”树莓派的“板子”，由中国台湾和大陆厂家制造。
+										
+										它是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存硬盘，卡片主板周围有1/2/4个USB接口和一个10/100 以太网接口（A型没有网口），可连接键盘、鼠标和网线，同时拥有视频模拟信号的电视输出接口和HDMI高清视频输出接口，以上部件全部整合在一张仅比信用卡稍大的主板上，具备所有PC的基本功能只需接通电视机和键盘，就能执行如电子表格、文字处理、玩游戏、播放高清视频等诸多功能。 Raspberry Pi B款只提供电脑板，无内存、电源、键盘、机箱或连线。
+										
+										树莓派最新发布的第四代产品 Raspberry Pi 4 B， 性能与树莓派 3B+相比无论是处理器速度，还是多媒体和内存上都有显著提升。Raspberry Pi 4B拥有与入门级 x86 PC 系统相媲美的桌面性能，给您带来高品质体验。
+										
+										Raspberry Pi 4B 具备1.5Ghz运行的64位四核处理器，最高支持以60fps 速度刷新的4K分辨率的双显示屏，高达4GB RAM（可根据型号选择1GB、2GB、4GB、8GB），2.4/5.0 Ghz 双频无线LAN，蓝牙5.0/BLE，千兆以太网，USB3.0，和PoE功能。
+										
+										</li>
+									<!-- <li>指导老师, 王雷全</li> -->
 								</ul>
-							</div>
+							</div> <!-- cd-author -->
 						</li>
-						
-						
-					</ul> <!-- cd-testimonials -->	
-				</div> <!-- cd-testimonials-wrapper -->
-				
-				<div class="cd-see-all"><a href="#0" class="btn btn-1">查看详情</a></div>
-				
-				<div class="cd-testimonials-all">
-					<div class="cd-testimonials-all-wrapper">
-						<ul>
-							<li class="cd-testimonials-item">
-								<!-- <p>王雷全,博士,中国石油大学（华东）,青岛软件学院、计算机科学与技术学院硕士生导师。2012年6月毕业于北京邮电大学信息与通信工程专业,获得工学博士学位,专业领域为机器学习与计算机视觉。目前科研兴趣包括：跨媒体检索、图像/视频描述、视频理解、遥感分析、深度学习理论与应用等。目前以第一作者或通信作者发表SCI论文20余篇,主持和参加多项国家自然科学基金、科技部、教育部以及企业合作项目,指导本科生与研究生参加国际、国内竞赛。</p> -->
-								
-								<div class="cd-author">
-									<!-- <img src="images/avatar-1.jpg" alt="Author image"> -->
-									<ul class="cd-author-info">
-										<li>放照片</li>
-										<!-- <li>指导老师, 王雷全</li> -->
-									</ul>
-								</div> <!-- cd-author -->
-							</li>
-							 <!-- cd-author -->
-							
-							
-							</li>
-						</ul>
-					</div>	<!-- cd-testimonials-all-wrapper -->
-					<a href="#0" class="close-btn">Close</a>
-				</div> <!-- cd-testimonials-all -->
-			</div>
-		</section>
-		
-		<!-- ////////////Content Box 05 -->
-		<section class="box-content box-5" id="contact">
-			<div class="container">
-				<div class="row heading">
-					<div class="col-lg-12">
-	                    <h2>Contact</h2>
-						<hr>
-	                    <!-- <div class="intro">Lorem ipsum dolor sit amet</div> -->
-	                </div>
+						<!-- cd-author -->
+
+
+						</li>
+					</ul>
+				</div> <!-- cd-testimonials-all-wrapper -->
+				<a href="#0" class="close-btn">Close</a>
+			</div> <!-- cd-testimonials-all -->
+		</div>
+	</section>
+
+	<!-- ////////////Content Box 05 -->
+	<section class="box-content box-5" id="contact">
+		<div class="container">
+			<div class="row heading">
+				<div class="col-lg-12">
+					<h2>Contact</h2>
+					<hr>
+					<!-- <div class="intro">Lorem ipsum dolor sit amet</div> -->
 				</div>
-				<div class="row">
-					<div class="col-md-4 ">
-						<div class="row box-item">
-							<h3>Complete the Submission Form</h3>
-							<!-- <p>如您有任何疑问，或者有兴趣与我们进行更深入的交流，请点击并填写右侧表格提交相关信息，期待您的来信。</p> -->
-							<h3>Or Just Make a Call</h3>
-							<p>+138 9169 4502<br>
-								+176 6784 6782</p>
-							<p>790930183@qq.com</p>
-						</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 ">
+					<div class="row box-item">
+						<h3>Complete the Submission Form</h3>
+						<!-- <p>如您有任何疑问，或者有兴趣与我们进行更深入的交流，请点击并填写右侧表格提交相关信息，期待您的来信。</p> -->
+						<h3>Or Just Make a Call</h3>
+						<p>+138 9169 4502<br>
+							+176 6784 6782</p>
+						<p>790930183@qq.com</p>
 					</div>
-					<div class="col-md-8">
-						<div id="contact-form">
-							<form name="form1" method="post" action="contact.php">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-										<input type="text" class="form-control input-lg" name="name" id="name" placeholder="Enter name" required="required" />
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="email" class="form-control input-lg" name="email" id="email" placeholder="Enter email" required="required" />
-										</div>
+				</div>
+				<div class="col-md-8">
+					<div id="contact-form">
+						<form name="form1" method="post" action="contact.php">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control input-lg" name="name" id="name"
+											placeholder="Enter name" required="required" />
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject" required="required" />
-										</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control input-lg" name="email" id="email"
+											placeholder="Enter email" required="required" />
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
-											placeholder="Message"></textarea>
-										</div>						
-										<button type="submit" class="btn btn-3 btn-block" name="btnContactUs" id="btnContactUs">
-									Submit</button>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="text" class="form-control input-lg" name="subject" id="subject"
+											placeholder="Subject" required="required" />
 									</div>
 								</div>
-							</form>
-						</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea name="message" id="message" class="form-control" rows="4" cols="25"
+											required="required" placeholder="Message"></textarea>
+									</div>
+									<button type="submit" class="btn btn-3 btn-block" name="btnContactUs"
+										id="btnContactUs">
+										Submit</button>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
-		</section>
-		
+		</div>
+	</section>
+
 	</div>
-	
+
 	<!-- /////////////////////////////////////////Footer -->
 	<footer>
 		<div class="wrap-footer">
@@ -271,10 +380,10 @@
 				<div class="row">
 					<div class="col-md-4 col-footer footer-1">
 						<!-- <div class="heading"><h4>基于树莓派的智能家居管理系统</h4></div> -->
-						
+
 					</div>
-					
-					
+
+
 				</div>
 			</div>
 		</div>
@@ -293,7 +402,7 @@
 							<li><a href="#"><i class="fa fa-linkedin"></i></a>
 							</li>
 							<li><a href="#"><i class="fa fa-google"></i></a>
-                            </li>
+							</li>
 						</ul>
 					</div>
 					<div class="col-md-4">
@@ -310,7 +419,7 @@
 	</footer>
 	<!-- Footer -->
 
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
@@ -329,4 +438,5 @@
 	<script src="js/cbpAnimatedHeader.js"></script>
 
 </body>
+
 </html>
